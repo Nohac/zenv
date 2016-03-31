@@ -11,15 +11,15 @@ Place a .zenv file in youre project root that you want automatically sourced/eva
 zenv provides an interface for upping and dowing the environment.
 ### zenv_up
 Runs when you enter the project/directory root
-`
+```bash
 function zenv_up {
     alias zenvtest="echo 'it works!'"}
 }
-`
+```
 ### zenv_down
 Runs when you exit the project/directory root
-`
+```bash
 function zenv_down {
     unalias zenvtest
 }
-`
+```
