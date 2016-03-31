@@ -13,7 +13,7 @@ zenv provides an interface for upping and dowing the environment.
 Runs when you enter the project/directory root
 ```bash
 function zenv_up {
-    alias zenvtest="echo 'it works!'"}
+    alias zenvtest="echo 'it works!'"
 }
 ```
 ### zenv_down
