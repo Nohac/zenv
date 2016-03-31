@@ -23,3 +23,10 @@ function zenv_down {
     unalias zenvtest
 }
 ```
+
+### ZENV_ROOT
+You can use the ZENV_ROOT environment variable in your .zenv file to get root path of the zenv.
+```bash
+echo $ZENV_ROOT
+# /path/to/your/zenv
+```
