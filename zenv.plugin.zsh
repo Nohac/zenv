@@ -1,4 +1,5 @@
 # TODO: If ZENV_ROOT!=zenv_pwd, source new .zenv and reset ZENV_ROOT
+# TODO: Add verification for new zenv and updated zenv
 
 function chpwd {
     local zenv_pwd="$(zenv_locate_root)"
@@ -16,8 +17,6 @@ function chpwd {
         unset ZENV_ROOT
         
         return
-        # This should have worked
-        # exec $SHELL -l
     fi
 
     if [ "$zenv_pwd" != "" ] ; then
