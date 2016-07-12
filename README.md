@@ -4,6 +4,19 @@ Automatically source .zenv files when in a directory/project tree.
 # Install
 Just load the plugin as you normally would using youre prefered zsh plugin manager.
 
+### Example
+
+[Zgen](https://github.com/tarjoilija/zgen):
+```zsh
+source "${HOME}/.zgen/zgen.zsh"
+if ! zgen saved; then
+
+  zgen load noh4ck/zenv
+  
+  zgen save
+fi
+```
+
 # Usage
 Place a .zenv file in youre project root that you want automatically sourced/evaluated by zsh, thats it.
 
