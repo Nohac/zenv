@@ -8,6 +8,7 @@ Just load the plugin as you normally would using youre prefered zsh plugin manag
 
 [Zgen](https://github.com/tarjoilija/zgen):
 ```zsh
+# In $HOME/.zshrc
 source "${HOME}/.zgen/zgen.zsh"
 if ! zgen saved; then
 
@@ -15,6 +16,12 @@ if ! zgen saved; then
   
   zgen save
 fi
+```
+
+[Zplug](https://github.com/zplug/zplug):
+```zsh
+# On the commandline
+$ zplug "noh4ck/zenv", as:plugin, use:"*.sh"
 ```
 
 # Usage
